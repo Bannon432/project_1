@@ -2,22 +2,25 @@ body {
 	font-family:'Lato',sans-serif;
 	color:indigo;
 	font-weight:300;
-    background-color:limegreen;
+    background-color:black;
 }
-
 .text-muted {
 	color:violet;
 }
-
 .text-thin {
 	font-weight:100;
 }
-
-
+.img-responsive {
+    border: 1px solid black; 
+} 
+.img-responsive:hover { 
+    border-radius: 50%;
+    border: 3px solid black;
+    transition: .5s;
+}
 .title-super {
 	font-size:65px;
 }
-
 .title-logo {
 	margin-top:20px;
 }
